@@ -9,6 +9,9 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Tablr icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+        <!-- Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
@@ -83,9 +86,52 @@
                         <p class="lead mb-4">Take a look at some of my projects:</p>
                         <div class="card shadow-lg border-0 rounded-4 mb-4">
                             <div class="card-body p-4">
-                                <h3>
-                                    Feature-Based EKF SLAM
-                                </h3>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <i class="ti ti-drone fa-2x text-primary"></i>
+                                    </div>
+                                    <h3 class="mb-0">
+                                        Drone Swarm Consensus and Task Allocation
+                                    </h3>
+                                </div>
+                                <p>
+                                    Controlling a Swarm of Crazyflies using Consensus Protocol 
+                                    and Auction-Based Task Allocation
+                                </p>
+                                <a class="btn btn-primary" href="#mrs">
+                                    View Project
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card shadow-lg border-0 rounded-4 mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <i class="fas fa-eye fa-2x text-primary"></i>
+                                    </div>
+                                    <h3 class="mb-0">
+                                        Warehouse Surveillance
+                                    </h3>
+                                </div>
+                                <p>
+                                    Warehouse Surveillance system using RGB camera mounted on
+                                    a Turtlebot 2
+                                </p>
+                                <a class="btn btn-primary" href="#surveillance">
+                                    View Project
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card shadow-lg border-0 rounded-4 mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <i class="fas fa-map-location-dot fa-2x text-primary"></i>
+                                    </div>
+                                    <h3 class="mb-0">
+                                        Feature-Based EKF SLAM
+                                    </h3>
+                                </div>
                                 <p>
                                     Simultaneous Localization and Mapping implementation
                                     for Turtlebot using XY Feature-Based ArUco markers
@@ -97,9 +143,14 @@
                         </div>
                         <div class="card shadow-lg border-0 rounded-4 mb-4">
                             <div class="card-body p-4">
-                                <h3>
-                                    Back Tracking Coverage
-                                </h3>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <i class="fas fa-maximize fa-2x text-primary"></i>
+                                    </div>
+                                    <h3 class="mb-0">
+                                        Back Tracking Coverage
+                                    </h3>
+                                </div>
                                 <p>
                                     Online Back Tracking coverage algorithm implementation for Turtlebot
                                     using lidar
@@ -111,9 +162,14 @@
                         </div>
                         <div class="card shadow-lg border-0 rounded-4 mb-4">
                             <div class="card-body p-4">
-                                <h3>
-                                    Mobile Manipulator Kinematic Control
-                                </h3>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <i class="fas fa-hand-lizard fa-2x text-primary"></i>
+                                    </div>
+                                    <h3 class="mb-0">
+                                        Mobile Manipulator Kinematic Control
+                                    </h3>
+                                </div>
                                 <p>
                                     Task-Priority Kinematic Control algorithm for Turtlebot
                                     with manipulator
@@ -125,9 +181,14 @@
                         </div>
                         <div class="card shadow-lg border-0 rounded-4 mb-4">
                             <div class="card-body p-4">
-                                <h3>
-                                    Event-based Marine Snow Detection in Stonefish
-                                </h3>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <i class="fas fa-snowflake fa-2x text-primary"></i>
+                                    </div>
+                                    <h3 class="mb-0">
+                                        Event-based Marine Snow Detection in Stonefish
+                                    </h3>
+                                </div>
                                 <p>
                                     Detection of marine snow, using Event Based Cameras (EBCs)
                                     and Spiking Neural Networks (SNNs)
@@ -136,6 +197,330 @@
                                     View Project
                                 </a>
                             </div>
+                        </div>
+                        <div class="card shadow-lg border-0 rounded-4 mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="me-3">
+                                        <i class="fas fa-road fa-2x text-primary"></i>
+                                    </div>
+                                    <h3 class="mb-0">
+                                        Autonomous Navigation Mobile Robot
+                                    </h3>
+                                </div>
+                                <p>
+                                    Autonomous navigation of a mobile robot to complete a circuit reactive
+                                    to traffic lights and traffic signs
+                                </p>
+                                <a class="btn btn-primary" href="#auto-nav">
+                                    View Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <!-- PROJECT -->
+            <section class="resume-section" id="mrs">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">
+                        Drone Swarm Consensus and Task Allocation
+                    </h2>
+                    <!-- VIDEOS -->
+                    <div class="row mb-4">
+                        <!-- VIDEO A -->
+                        <div class="col-md-6 mb-4">
+                            <div class="ratio ratio-16x9">
+                                <iframe
+                                    src="https://www.youtube.com/embed/nf2cZwI9S6Q"
+                                    title="mrs-consensus-physical"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-- VIDEO B -->
+                        <div class="col-md-6 mb-4">
+                            <div class="ratio ratio-16x9">
+                                <iframe
+                                    src="https://www.youtube.com/embed/FNM9djuvdvM"
+                                    title="mrs-consensus-simulation"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Images -->
+                    <h3 class="mt-5 mb-3">
+                        Results
+                    </h3>
+                    <div class="row g-4 mb-4">
+                        <div class="col-6 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-ren_fc_new.jpeg"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 200px; object-fit: contain;"
+                                alt="mrs-rendezvous-formation">
+                                <small class="text-muted d-block mt-2">
+                                    Rendezvous
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-line_fc_new.jpeg"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 200px; object-fit: contain;"
+                                alt="mrs-line-formation">
+                                <small class="text-muted d-block mt-2">
+                                    Line
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-square_fc_new.jpeg"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 200px; object-fit: contain;"
+                                alt="mrs-square-formation">
+                                <small class="text-muted d-block mt-2">
+                                    Square
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-triangle_fc_new.jpeg"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 200px; object-fit: contain;"
+                                alt="mrs-triangle-formation">
+                                <small class="text-muted d-block mt-2">
+                                    Triangle
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-nav_to_goal_new.jpeg"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 200px; object-fit: contain;"
+                                alt="mrs-nav2goal">
+                                <small class="text-muted d-block mt-2">
+                                    Navigate to goal
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lead">
+                        Consensus protocol applied to a collection of connected drones for different formations
+                        and their collective movement maintaining the formation. Implementation of separation
+                        (one from the three Reynolds Rules) to prevent collisions between agents. Tested with
+                        3 connectivity configurations:
+                    </p>
+                    <div class="row g-4 mb-4">
+                        <div class="col-4 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-fc.png"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 200px; object-fit: contain;"
+                                alt="mrs-fully-connected">
+                                <small class="text-muted d-block mt-2">
+                                    Fully Connected
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-star.png"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 200px; object-fit: contain;"
+                                alt="mrs-star">
+                                <small class="text-muted d-block mt-2">
+                                    Star
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-circle.png"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 200px; object-fit: contain;"
+                                alt="mrs-circle">
+                                <small class="text-muted d-block mt-2">
+                                    Circle
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- VIDEOS -->
+                    <div class="row mb-4">
+                        <!-- VIDEO A -->
+                        <div class="col-md-6 mb-4">
+                            <div class="ratio ratio-16x9">
+                                <iframe
+                                    src="https://www.youtube.com/embed/43IGMUWltFY"
+                                    title="mrs-task-allocation-physical"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-- VIDEO B -->
+                        <div class="col-md-6 mb-4">
+                            <div class="ratio ratio-16x9">
+                                <iframe
+                                    src="https://www.youtube.com/embed/kSAhzsmRYqA"
+                                    title="mrs-task-allocation-simulation"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Images -->
+                    <h3 class="mt-5 mb-3">
+                        Results
+                    </h3>
+                    <div class="row g-4 mb-4">
+                        <div class="col-12 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-new_mission.png"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 400px; object-fit: contain;"
+                                alt="mrs-mission-precedence">
+                                <small class="text-muted d-block mt-2">
+                                    Mission Tasks Precedence
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-schedule_sync.png"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 400px; object-fit: contain;"
+                                alt="mrs-planned-scheduled">
+                                <small class="text-muted d-block mt-2">
+                                    Planned Schedule
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4 mb-4">
+                        <div class="col-12 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-results_paths.png"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 400px; object-fit: contain;"
+                                alt="mrs-result-paths">
+                                <small class="text-muted d-block mt-2">
+                                    Flight Paths
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md">
+                            <div class="text-center">
+                                <img src="assets/img/mrs-schedule_result.png"
+                                class="img-fluid rounded shadow-lg mb-0"
+                                style="height: 400px; object-fit: contain;"
+                                alt="mrs-result-schedule">
+                                <small class="text-muted d-block mt-2">
+                                    Result Schedule
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lead">
+                        Task Allocation following simple Iterative Allocation algorithm. From a Task Graph that
+                        manages the precedence and characteristics of each Task, the algorithm assigns a robot for
+                        each one and builds the schedule to execute the mission. The schedule is computed pre-flight,
+                        so the actual flight usually differs from the planned schedule. Task can be Single or Multi-Robot.
+                    </p>
+                    <div class="row mb-4">
+                        <div class="col-md-6 mb-4">
+                            <h3 class="mt-5 mb-3">
+                                System Architecture
+                            </h3>
+                            <img src="assets/img/mrs-architecture.png"
+                            class="img-fluid rounded shadow-lg mb-5"
+                            style="height: 350px; object-fit: contain;"
+                            alt="mrs-architecture">
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h3 class="mt-5 mb-3">
+                                Key Features
+                            </h3>
+                            <ul>
+                                <li>Consensus node capable of executing line, triangle or square formations
+                                    for Multi-Robot Tasks</li>
+                                <li>Single-Robot Tasks navigate to goal: surveillance/exploration Tasks</li>
+                                <li>Navigate to Goal for each Task simultaneous to formation</li>
+                                <li>Planned synchronization for Multi-Robot Tasks</li>
+                                <li>Task Allocation based on bidding using makespan = 
+                                    distance_to_location + duration_of_task</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <!-- PROJECT -->
+            <section class="resume-section" id="surveillance">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">
+                        Warehouse Surveillance
+                    </h2>
+                    <!-- VIDEOS -->
+                    <div class="row mb-4">
+                        <!-- VIDEO A -->
+                        <div class="col-md-6 mb-4">
+                            <div class="ratio ratio-16x9">
+                                <iframe
+                                    src="https://www.youtube.com/embed/9cATyI-NMcQ"
+                                    title="surveillance-video-simulation"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <img src="assets/img/surveillance-authorization.jpg"
+                            class="img-fluid rounded shadow-lg mb-5"
+                            style="height: 350px; object-fit: contain;"
+                            alt="surveillance-authorization">
+                        </div>
+                    </div>
+                    <p class="lead">
+                        Warehouse surveillance system designed for autonomous security robots using RGB 
+                        camera for real-time person detection, multi-object tracking, and ArUco markers
+                        verification. The robot follows a person until verified authorization.
+                    </p>
+                    <!-- Images -->
+                    <div class="row mb-4">
+                        <div class="col-md-6 mb-4">
+                            <h3 class="mt-5 mb-3">
+                                System Architecture
+                            </h3>
+                            <img src="assets/img/surveillance-architecture.png"
+                            class="img-fluid rounded shadow-lg mb-5"
+                            style="height: 400px; object-fit: contain;"
+                            alt="surveillance-architecture">
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h3 class="mt-5 mb-3">
+                                Key Features
+                            </h3>
+                            <ul>
+                                <li>Pre-trained YOLOv8n for lightweight real-time person detection</li>
+                                <li>ByteTrack algorithm for multi-object tracking with temporal ID persistence</li>
+                                <li>ArUco marker verification based on the person's chest Region of Interest (ROI)</li>
+                                <li>Reactive controller prioritizes closest unauthorized person as the largest
+                                    unauthorized bounding box
+                                </li>
+                                <li>Angular and linear speeds adjust proportionally to bounding box's location 
+                                    and area to ensure the followed person always stays in frame
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -174,7 +559,7 @@
                     </div>
                     <p class="lead">
                         Feature-Based Extended Kalman Filter SLAM for
-                        Turtlebot differential-drive robots using wheel
+                        Turtlebot differential-drive robot using wheel
                         odometry, IMU measurements, and ArUco landmark
                         observations.
                     </p>
@@ -186,7 +571,7 @@
                             </h3>
                             <img src="assets/img/slam-architecture.png"
                             class="img-fluid rounded shadow-lg mb-5"
-                            style="height: 350px; object-fit: contain;"
+                            style="height: 400px; object-fit: contain;"
                             alt="slam-architecture">
                         </div>
                         <div class="col-md-6 mb-4">
@@ -195,7 +580,7 @@
                             </h3>
                             <img src="assets/img/slam-results.png"
                             class="img-fluid rounded shadow-lg mb-5"
-                            style="height: 350px; object-fit: contain;"
+                            style="height: 450px; object-fit: contain;"
                             alt="slam-results">
                         </div>
                     </div>
@@ -299,7 +684,7 @@
                             <img src="assets/img/intervention-architecture.png"
                             class="img-fluid rounded shadow-lg mb-5"
                             style="height: 350px; object-fit: contain;"
-                            alt="coverage-architecture">
+                            alt="intervention-architecture">
                         </div>
                     </div>
                     <p class="lead">
@@ -342,7 +727,7 @@
                             <div class="ratio ratio-16x9">
                                 <iframe
                                     src="https://www.youtube.com/embed/uFUozzT3xZ8"
-                                    title="coverage-video-physical"
+                                    title="marine-snow-video-sample"
                                     allowfullscreen>
                                 </iframe>
                             </div>
@@ -351,7 +736,7 @@
                             <img src="assets/img/marine-snow.png"
                             class="img-fluid rounded shadow-lg mb-5"
                             style="height: 350px; object-fit: contain;"
-                            alt="coverage-architecture">
+                            alt="marine-snow">
                         </div>
                     </div>
                     <p class="lead">
@@ -365,10 +750,10 @@
                     </h3>
                     <img src="assets/img/snow-sample-1.png"
                     class="img-fluid rounded shadow-lg mb-5"
-                    alt="slam-architecture">
+                    alt="marine-snow-result-ex1">
                     <img src="assets/img/snow-sample-2.png"
                     class="img-fluid rounded shadow-lg mb-5"
-                    alt="slam-results">
+                    alt="marine-snow-result-ex2">
                     <h4 class="mb-3">
                         Key Features
                     </h4>
@@ -389,6 +774,57 @@
 
             <hr class="m-0" />
 
+            <!-- PROJECT -->
+            <section class="resume-section" id="auto-nav">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">
+                        Autonomous Navigation Mobile Robot
+                    </h2>
+                    <!-- VIDEOS -->
+                    <div class="row mb-4">
+                        <!-- VIDEO A -->
+                        <div class="col-12 col-md-6 mb-4">
+                            <div class="ratio ratio-16x9 h-100">
+                                <iframe
+                                    src="https://www.youtube.com/embed/zc4WJJtaIfQ"
+                                    title="autonomous-navigation-video"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row h-100">
+                                <div class="col-6 mb-4">
+                                    <img src="assets/img/auto-nav-circuit.png"
+                                    class="img-fluid rounded shadow-lg mb-5"
+                                    style="height: 400px; object-fit: contain;"
+                                    alt="autonomous-navigation-circuit">
+                                </div>
+                                <div class="col-6 mb-4">
+                                    <img src="assets/img/auto-nav-circuit-2.png"
+                                    class="img-fluid rounded shadow-lg mb-5"
+                                    style="height: 400px; object-fit: contain;"
+                                    alt="autonomous-navigation-circuit">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lead">
+                        Puzzlebot must navigate through a circuit fully autonomously, reacting to traffic lights
+                        and traffic signs along the trajectory. The circuit can be changed and the robot should
+                        be able to complete the circuits depending on the traffic signs. Reactive navigation relies
+                        on computer vision and the traffic signs classification on a CNN.
+                    </p>
+                    <p class="lead">
+                        Check out the project 
+                        <a href="https://github.com/cpazosr/Autonomous-Navigation/tree/main" target="_blank">here</a>.
+                    </p>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <!-- CONTACT -->
             <section class="resume-section" id="contact">
                 <div class="resume-section-content">
                     <h2 class="mb-5">
@@ -405,7 +841,7 @@
                                         Email
                                     </h4>
                                     <p class="mb-0">
-                                        c_pazos@yahoo.com
+                                        <a href="mailto:c_pazos@yahoo.com">c_pazos@yahoo.com</a>
                                     </p>
                                 </div>
                             </div>
